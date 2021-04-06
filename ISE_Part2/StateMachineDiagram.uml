@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_U3LxYIQ_Eeut0aCUiIg1dQ" name="StateMachineDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_U3yOUIQ_Eeut0aCUiIg1dQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_YUXp8IQ_Eeut0aCUiIg1dQ" name="ATOM Misconduct System State Machine" visibility="package">
+    <region xmi:type="uml:Region" xmi:id="_Z7UZoIQ_Eeut0aCUiIg1dQ" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_eXTHIIpdEeuAcqKkvRJ8gA" name="referCase()[completeReferralForm()]" source="_eUIpMIm_EeuAcqKkvRJ8gA" target="_Dzr3EInEEeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ye_1MIpdEeuAcqKkvRJ8gA" name="new Report, sendForm()" kind="local" source="_vyAgMIm9EeuAcqKkvRJ8gA" target="_eUIpMIm_EeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_BR1-cIpeEeuAcqKkvRJ8gA" name="Change case status to closed[registerOutcome()]" source="_Dzr3EInEEeuAcqKkvRJ8gA" target="_Zd79AInEEeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_CNUvQIpeEeuAcqKkvRJ8gA" name="Change case status to closed" source="_YAvVEIpaEeuAcqKkvRJ8gA" target="_Zd79AInEEeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_GS9H4IpeEeuAcqKkvRJ8gA" name="sendForm()[notifyDepartment()]" source="_eUIpMIm_EeuAcqKkvRJ8gA" target="_zxLnUInEEeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_SYn5MIpeEeuAcqKkvRJ8gA" source="_Zd79AInEEeuAcqKkvRJ8gA" target="_QenqoIpeEeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_v0ZL8IpkEeuAcqKkvRJ8gA" name="Schedule Investigatory Interview" source="_eUIpMIm_EeuAcqKkvRJ8gA" target="_YAvVEIpaEeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Uq9ZIIpnEeuAcqKkvRJ8gA" name="referCase()[completeReferralForm()]" source="_YAvVEIpaEeuAcqKkvRJ8gA" target="_Dzr3EInEEeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_OlzXMJY4Eeu7850mZbB6jw" name="Schedule LAMP Interview" source="_eUIpMIm_EeuAcqKkvRJ8gA" target="_KnMMkJY4Eeu7850mZbB6jw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YOnEgJY4Eeu7850mZbB6jw" name="Change case status to closed" source="_KnMMkJY4Eeu7850mZbB6jw" target="_Zd79AInEEeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ax12QJY4Eeu7850mZbB6jw" name="referCase()[completeReferralForm()]" source="_KnMMkJY4Eeu7850mZbB6jw" target="_Dzr3EInEEeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_TldHoJayEeu7850mZbB6jw" source="_KnMMkJY4Eeu7850mZbB6jw" target="__E0VIJaxEeu7850mZbB6jw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Y9gYIJa3EeuE4L6DBCGMSQ" name="Change case status to closed[signMisconductForm()]" kind="local" source="__E0VIJaxEeu7850mZbB6jw" target="_Zd79AInEEeuAcqKkvRJ8gA"/>
+      <transition xmi:type="uml:Transition" xmi:id="__ADqwJbOEeuE4L6DBCGMSQ" source="_zxLnUInEEeuAcqKkvRJ8gA" target="_8TjBMJbOEeuE4L6DBCGMSQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_vyAgMIm9EeuAcqKkvRJ8gA"/>
+      <subvertex xmi:type="uml:State" xmi:id="_eUIpMIm_EeuAcqKkvRJ8gA" name="Under Evidence Review">
+        <doActivity xmi:type="uml:Activity" xmi:id="_SnFXsJauEeu7850mZbB6jw" name="getPreviousOffences()"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_Dzr3EInEEeuAcqKkvRJ8gA" name="Referred SCO">
+        <doActivity xmi:type="uml:Activity" xmi:id="_UMhewIppEeuAcqKkvRJ8gA" name="scheduleHearing()" visibility="package"/>
+        <exit xmi:type="uml:Activity" xmi:id="_6fxDUJa2EeuE4L6DBCGMSQ" name="sendOutcome()"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_Zd79AInEEeuAcqKkvRJ8gA" name="Closed"/>
+      <subvertex xmi:type="uml:State" xmi:id="_zxLnUInEEeuAcqKkvRJ8gA" name="Under Home Department"/>
+      <subvertex xmi:type="uml:State" xmi:id="_YAvVEIpaEeuAcqKkvRJ8gA" name="Under Investigatory Interview">
+        <doActivity xmi:type="uml:Activity" xmi:id="_GBnkoJaxEeu7850mZbB6jw" name="Conduct Interview"/>
+        <exit xmi:type="uml:Activity" xmi:id="_qydLAJa4EeuE4L6DBCGMSQ" name="sendSummary()"/>
+      </subvertex>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_QenqoIpeEeuAcqKkvRJ8gA"/>
+      <subvertex xmi:type="uml:State" xmi:id="_KnMMkJY4Eeu7850mZbB6jw" name="Under LAMP Interview">
+        <doActivity xmi:type="uml:Activity" xmi:id="_Ltx2MJaxEeu7850mZbB6jw" name="Conduct Interview"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="__E0VIJaxEeu7850mZbB6jw" name="Misconduct Confirmed">
+        <doActivity xmi:type="uml:Activity" xmi:id="_svq5EJbNEeuE4L6DBCGMSQ" name="checkForm()"/>
+        <entry xmi:type="uml:Activity" xmi:id="_q3daQJbNEeuE4L6DBCGMSQ" name="Send outcome form to student"/>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_8TjBMJbOEeuE4L6DBCGMSQ" name="Case Dropped" kind="terminate"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gAtfwIm_EeuAcqKkvRJ8gA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gAwjEIm_EeuAcqKkvRJ8gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
