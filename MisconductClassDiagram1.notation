@@ -18,14 +18,6 @@
         <element xmi:type="uml:Property" href="MisconductClassDiagram1.uml#_owjBYHnfEeuT86iQqEFeeQ"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_ownS0XnfEeuT86iQqEFeeQ"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_pD6pUHnfEeuT86iQqEFeeQ" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="MisconductClassDiagram1.uml#_pD1w0HnfEeuT86iQqEFeeQ"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pD6pUXnfEeuT86iQqEFeeQ"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_pY9FMHnfEeuT86iQqEFeeQ" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="MisconductClassDiagram1.uml#_pY4MsHnfEeuT86iQqEFeeQ"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_pY9FMXnfEeuT86iQqEFeeQ"/>
-      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_djWwNnnfEeuT86iQqEFeeQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_djWwN3nfEeuT86iQqEFeeQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_djWwOHnfEeuT86iQqEFeeQ"/>
@@ -442,6 +434,48 @@
     <element xmi:type="uml:Class" href="MisconductClassDiagram1.uml#_VuQ0gHnlEeuT86iQqEFeeQ"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VuSpsXnlEeuT86iQqEFeeQ" x="1280" y="820" width="300" height="160"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_ZZVrwJe4EeuTIp-JivITaA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZZYvEJe4EeuTIp-JivITaA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZZZWIJe4EeuTIp-JivITaA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZZZWIZe4EeuTIp-JivITaA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ZZZWIpe4EeuTIp-JivITaA" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_4PKwcJe4EeuTIp-JivITaA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="MisconductClassDiagram1.uml#_4OjFYJe4EeuTIp-JivITaA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4PKwcZe4EeuTIp-JivITaA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Cs1pMJe5EeuTIp-JivITaA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="MisconductClassDiagram1.uml#_CsQaYJe5EeuTIp-JivITaA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Cs1pMZe5EeuTIp-JivITaA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_H8u1gJe5EeuTIp-JivITaA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="MisconductClassDiagram1.uml#_H8PGQJe5EeuTIp-JivITaA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_H8u1gZe5EeuTIp-JivITaA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_NXDwMJe5EeuTIp-JivITaA" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="MisconductClassDiagram1.uml#_NWlPEJe5EeuTIp-JivITaA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NXDwMZe5EeuTIp-JivITaA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ZZZWI5e4EeuTIp-JivITaA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZZZWJJe4EeuTIp-JivITaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZZZWJZe4EeuTIp-JivITaA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZZWJpe4EeuTIp-JivITaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ZZZWJ5e4EeuTIp-JivITaA" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ZZZWKJe4EeuTIp-JivITaA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZZZWKZe4EeuTIp-JivITaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZZZWKpe4EeuTIp-JivITaA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZZWK5e4EeuTIp-JivITaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ZZZWLJe4EeuTIp-JivITaA" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ZZZWLZe4EeuTIp-JivITaA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZZZWLpe4EeuTIp-JivITaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZZZWL5e4EeuTIp-JivITaA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZZWMJe4EeuTIp-JivITaA"/>
+    </children>
+    <element xmi:type="uml:Class" href="MisconductClassDiagram1.uml#_ZZHCQJe4EeuTIp-JivITaA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZWS0Je4EeuTIp-JivITaA" x="220" width="220" height="160"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_dMtKwXnfEeuT86iQqEFeeQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_dMtKwnnfEeuT86iQqEFeeQ"/>
   <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_dMtKw3nfEeuT86iQqEFeeQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
@@ -778,5 +812,15 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aX2KknnsEeuT86iQqEFeeQ" points="[1820, 640, -643984, -643984]$[1820, 940, -643984, -643984]$[2360, 940, -643984, -643984]$[2360, 100, -643984, -643984]$[1860, 100, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aYlxcHnsEeuT86iQqEFeeQ" id="(0.6875,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aYlxcXnsEeuT86iQqEFeeQ" id="(1.0,0.4)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_NEp8IJe6EeuTIp-JivITaA" type="Generalization_Edge" source="_djWwMHnfEeuT86iQqEFeeQ" target="_ZZVrwJe4EeuTIp-JivITaA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NEqjMJe6EeuTIp-JivITaA" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NEqjMZe6EeuTIp-JivITaA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NEp8IZe6EeuTIp-JivITaA"/>
+    <element xmi:type="uml:Generalization" href="MisconductClassDiagram1.uml#_NEMCEJe6EeuTIp-JivITaA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NEp8Ipe6EeuTIp-JivITaA" points="[320, 280, -643984, -643984]$[320, 160, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NFmXUJe6EeuTIp-JivITaA" id="(0.4444444444444444,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NFmXUZe6EeuTIp-JivITaA" id="(0.45454545454545453,1.0)"/>
   </edges>
 </notation:Diagram>
